@@ -11,7 +11,7 @@ const App = () => {
     <div><Navbar/>
       <Hero/>
       <About/>
-      <Services/>
+      {/* <Services/> */}
       <MyWork/>
       <Contact/>
       <Footer/>
