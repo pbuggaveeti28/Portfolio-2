@@ -12,10 +12,7 @@ const About = () => {
         </div>
         <div className="about-sections">
             <div className="about-left">
-                <img src={profile_img}/>
-            </div>
-            <div className="about-right">
-                <div className="about-para">
+            <div className="about-para">
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus natus earum amet quia? Alias earum voluptatibus eius assumenda nihil dicta!
                     </p>
@@ -23,6 +20,9 @@ const About = () => {
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat debitis architecto recusandae sapiente deserunt excepturi quod ab repudiandae odit ipsum.
                     </p>
                 </div>
+            </div>
+            <div className="about-right">
+                
                 <div className="about-skills">
                     <div className="about-skill"><p>HTML & CSS</p><hr style={{width: "50%"}}/></div>
                     <div className="about-skill"><p>Javascript</p><hr style={{width: "60%"}}/></div>
